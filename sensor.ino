@@ -13,6 +13,6 @@ void loop() {
   const int moistureReading = analogRead(sensorPin);
   const bool isDry = moistureReading < dryThreshold;
   digitalWrite(buzzerPin, isDry ? HIGH : LOW);
-  Serial.println(isDry ? "DRY SOIL" : "SOIL OK");
+  // Simulated LCD output; no external LCD library or hardware is required.\n  Serial.print("[LCD] ");\n  Serial.println(isDry ? "DRY SOIL" : "SOIL OK");
   delay(500);
 }
