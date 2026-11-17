@@ -1,0 +1,3 @@
+# Training-only sample. Do NOT put passwords, access tokens or personal data here.
+SERIAL_PORT=SIMULATED
+DEBUG=false
