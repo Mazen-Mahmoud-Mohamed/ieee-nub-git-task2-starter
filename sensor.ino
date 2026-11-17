@@ -2,7 +2,7 @@
 // Smart Plant Monitor: classroom example (no real credentials).
 const int sensorPin = A0;
 const int buzzerPin = 8;
-const int dryThreshold = 40;
+const int dryThreshold = 45;
 
 void setup() {
   Serial.begin(9600);
